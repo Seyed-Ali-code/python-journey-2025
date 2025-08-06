@@ -1,12 +1,10 @@
-# def sum(a,b):
-#     print(f"{a}+{b} = {a+b}")
 
+def circle_status(r):
+    masahat = r * r * 3.14
+    mohit = r * 2 * 3.14
+    return mohit,masahat
 
-
-# sum(12,3)
-def area_circle(r):
-    """Return area of a circle given its radius."""
-
-    return r * r * 3.14
-sh = float(input("Shoae : "))
-print("masahat = ",area_circle(sh))
+rad = float(input("shoae : "))
+per,area = circle_status(rad)
+print("Mohit =",per)
+print("Masahat = ",area)
