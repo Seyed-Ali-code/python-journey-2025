@@ -1,6 +1,6 @@
 while True:
-    amal = input("yek amalgar vared konid ( + - * /) baraye khoroj exit ")
-    if amal == "exit":
+    amal = input("yek amalgar vared konid ( + - * /) baraye khoroj q ")
+    if amal == "q":
         print("khodanegahdar")
         break
     adad1 = float(input("adad aval ra vared konid"))
@@ -10,7 +10,6 @@ while True:
     elif amal == "-":
         print(f"{adad1} - {adad2} = {adad1-adad2}")
     elif amal == "*":
-        print(f"{adad1} + {adad2} = {adad1*adad2}")
+        print(f"{adad1} * {adad2} = {adad1*adad2}")
     elif amal == "/":
-        print(f"{adad1} + {adad2} = {adad1+adad2}")
-    
+        print(f"{adad1} / {adad2} = {adad1/adad2}")
